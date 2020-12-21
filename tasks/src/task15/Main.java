@@ -2,10 +2,11 @@ package task15;
 
 public class Main {
     public static void main(String[] args) {
-        double D, L, S, R;
-        R = 100;
-        L = 2 * 3.14 * R;
-        S = 3.14 * (R * R);
+        double D, L, S, R, Pi;
+        Pi = 3.14;
+        S = 100;
+        R = Math.sqrt(S)/(Pi*Pi);
+        L = 2 * Pi * R;
         D = R * 2;
         System.out.println("Радиус окружности равен " + R);
         System.out.println("Площадь окружности равна " + S);
