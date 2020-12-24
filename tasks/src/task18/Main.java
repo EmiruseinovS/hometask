@@ -4,18 +4,14 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
         Scanner task = new Scanner(System.in);
-        System.out.println("Введите координаты точки А: ");
-        int A = task.nextInt();
-        System.out.println("Введите координаты точки B: ");
-        int B = task.nextInt();
-        System.out.println("Введите координаты точки C: ");
-        int C = task.nextInt();
-        System.out.println();
-        if (C > A && C < B)
-            System.out.println("Произведение длин отрезков равно: " + ((Math.abs(C) - Math.abs(A)) * (Math.abs(B) - Math.abs(C))));
-        else if (C > A && C < B)
-            System.out.println("Значение переменной С не соответствует условию!");
-        else if (C > A && C > B)
-            System.out.println("Значение переменной С не соответствует условию!");
+        System.out.println("Введите переменную: ");
+        int number = task.nextInt();
+        if(number > 0)
+            number = number + 1;
+        else if(number < 0)
+            number = number - 2;
+        else if(number == 0)
+            number = 10;
+        System.out.println("Переменная равна: " + number);
     }
 }
