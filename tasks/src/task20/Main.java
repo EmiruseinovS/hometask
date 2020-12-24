@@ -15,6 +15,6 @@ public class Main {
         double y2 = task.nextDouble();
         double distance;
             distance = Math.sqrt(((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
-        System.out.println("Дистанция между клетками: "distance);
+        System.out.println("Дистанция между клетками: " + distance);
     }
 }
