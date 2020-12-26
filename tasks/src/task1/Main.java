@@ -5,5 +5,6 @@ public class Main {
         int a, P;
         a = 5; P = a * 4;
         System.out.println("Периметр фигуры равен " + P);
+
     }
 }
