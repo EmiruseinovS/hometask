@@ -13,16 +13,16 @@ public class Main {
         System.out.println("Задайте значение переменной С: ");
         int C = task.nextInt();
         if(A < B && A < C)
-            System.out.println("Самая маленькая переменная А");
+            System.out.println("Самая маленькая переменная " + A);
         else if(B < A && B < C)
-            System.out.println("Самая маленькая переменная В");
+            System.out.println("Самая маленькая переменная " + B);
         else if(C < A && C < A)
-            System.out.println("Самая маленькая переменная С");
+            System.out.println("Самая маленькая переменная " + C);
         if(A > B && A > C)
-            System.out.println("Самая большая переменная A");
+            System.out.println("Самая большая переменная " + A);
         else if(B > A && B > C)
-            System.out.println("Самая большая переменная B");
+            System.out.println("Самая большая переменная " + B);
         else if(C > A && C > B)
-            System.out.println("Самая большая переменная C");
+            System.out.println("Самая большая переменная " + C);
     }
 }
