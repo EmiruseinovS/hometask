@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner task = new Scanner(System.in);
-        int biggest, smallest;
         System.out.println("Задайте значение переменной А: ");
         int A = task.nextInt();
         System.out.println("Задайте значение переменной В: ");
