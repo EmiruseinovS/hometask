@@ -13,17 +13,17 @@ public class Main {
         int num2 = task.nextInt();
         System.out.println("Введите третью переменную: ");
         int num3 = task.nextInt();
-        if(num1>= 0 && num2 >= 0 && num3 >=0)
+        if(num1> 0 && num2 > 0 && num3 > 0)
             System.out.println("Количество положительных переменных равно 3");
-        else if(num1 >= 0 && num2 >= 0 || num2 >= 0 && num3 >= 0 || num1 >= 0 && num3 >= 0)
+        else if(num1 > 0 && num2 > 0 || num2 > 0 && num3 > 0 || num1 > 0 && num3 > 0)
             System.out.println("Количество положительных переменных равно 2");
-        else if(num1 >= 0 || num2 >= 0 || num3 >= 0)
+        else if(num1 > 0 || num2 > 0 || num3 > 0)
             System.out.println("Количество положительных переменных равно 1");
-        if(num1 <= 0 && num2 <= 0 && num3 <=0)
+        if(num1 < 0 && num2 < 0 && num3 <0)
             System.out.println("Количество отрицательных переменных равно 3");
-        else if(num1 <= 0 && num2 <= 0 || num2 <= 0 && num3 <= 0 || num1 <= 0 && num3 <= 0)
+        else if(num1 < 0 && num2 < 0 || num2 < 0 && num3 < 0 || num1 < 0 && num3 < 0)
             System.out.println("Количество отрицательных переменных равно 2");
-        else if(num1 <= 0 || num2 <= 0 || num3 <= 0)
+        else if(num1 < 0 || num2 < 0 || num3 < 0)
             System.out.println("Количество отрицательных переменных равно 1");
     }
 }
