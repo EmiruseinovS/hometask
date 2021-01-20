@@ -9,7 +9,7 @@ public class Main {
         int a = task.nextInt();
         System.out.println("Введите переменную В: ");
         int b = task.nextInt();
-        int sum = 0;
+        long sum = 0;
         for(int i = a;i < b;i++)
         System.out.println("Сумма чисел между А и В равна: " + (sum += i));
     }
