@@ -11,10 +11,9 @@ public class Main {
         int b = task.nextInt();
         int x = 0;
         int y = a;
-        while (x - b >= 0)
-        {
+        while (a - b <= 0) {
             x = x - b;
-        ++x;
+            ++x;
         }
         System.out.println(x);
     }
