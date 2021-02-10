@@ -4,17 +4,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int A, B;
         Scanner task = new Scanner(System.in);
-        System.out.println("Введите первое число: ");
-        int num1 = task.nextInt();
-        System.out.println("Введите второе число: ");
-        int num2 = task.nextInt();
-        if(num1 > num2)
-            System.out.println("А равно " + num2 + ", В равно " + num1);
-        else if(num1 < num2)
-            System.out.println("А равно " + num1 + ", В равно " + num2);
+        System.out.println("Введите A: ");
+        int a = task.nextInt();
+        System.out.println("Введите B: ");
+        int b = task.nextInt();
+        if(a > b)
+            System.out.println("A = " + b + ", B = " + a);
+        else if(a < b)
+            System.out.println("A = " + a + ", B = " + b);
         else
-            System.out.println("Числа равны");
+            System.out.println("A = B = " + a);
     }
 }
