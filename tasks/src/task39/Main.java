@@ -10,8 +10,9 @@ public class Main {
         System.out.println("Введите переменную b: ");
         int b = task.nextInt();
         long sum = 0;
-        for (int i = a; i < b; i++) {
-            System.out.println("Сумма квадратов равна: " + (sum += i * i));
+        for (long i = a; i <= b; i++) {
+            sum += i * i;
         }
+        System.out.println(sum);
     }
 }
