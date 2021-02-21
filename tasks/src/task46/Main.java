@@ -9,8 +9,11 @@ public class Main {
         int a = task.nextInt();
         System.out.println("Введите b: ");
         int b = task.nextInt();
-        while (a >= b)
+        int c = 1;
+        while(a - b * c > 0) {
+            c++;
             a = a - b;
+        }
         System.out.println(a);
     }
 }
