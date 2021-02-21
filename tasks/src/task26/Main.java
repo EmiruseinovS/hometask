@@ -9,12 +9,12 @@ public class Main {
         int a = task.nextInt();
         System.out.println("Введите B: ");
         int b = task.nextInt();
-        if(a > b)
+        if (a != b & a > b)
             b = a;
-        else if(a < b)
+        else if (a != b & a < b)
             a = b;
-        else if(a == b)
+        else if (a == b)
             a = b = 0;
-        System.out.println("A = " + a + ", B = " + b);
+        System.out.println(a + " " + b);
     }
 }
