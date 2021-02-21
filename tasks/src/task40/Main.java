@@ -8,10 +8,9 @@ public class Main {
         System.out.println("Введите переменную n: ");
         double n = task.nextDouble();
         double sum = 0;
-        for(int i = 1; i < n; i++) {
-            System.out.println(sum += n/i);
+        for(int i = 1; i <= n; i++) {
+            sum = sum + 1 / (double)i;
         }
+        System.out.println(sum);
     }
 }
-/* Дано целое число N (> 0). Найти сумму
-1 + 1/2 + 1/3 + . . . + 1/N */
