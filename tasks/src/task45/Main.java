@@ -9,9 +9,10 @@ public class Main {
         int n = task.nextInt();
         System.out.println("Введите a: ");
         int a = task.nextInt();
-        long mul = a;
-        for (int i = 0; i <= n; i++) {
-            System.out.println(mul = mul * a);
+        long mul = 1;
+        for(int i = 0; i < n ; i++) {
+            mul *= a;
         }
+        System.out.println(mul);
     }
 }
