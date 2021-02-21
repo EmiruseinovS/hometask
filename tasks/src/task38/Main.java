@@ -10,9 +10,9 @@ public class Main {
         System.out.println("Введите переменную b: ");
         int b = task.nextInt();
         int mul = 1;
-        for (int i = a; i < b; i++) {
-            System.out.println("Произведение чисел между а и b равно: " + (mul *= i));
-
+        for (int i = a; i <= b; i++) {
+            mul *= i;
         }
+        System.out.println(mul);
     }
 }
