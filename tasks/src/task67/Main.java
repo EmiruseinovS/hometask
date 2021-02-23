@@ -8,9 +8,13 @@ public class Main {
         System.out.println("n: ");
         int n = task.nextInt();
         int[] array = new int[n];
-        for (int i = n + 1; i > 0; i--) {
-            array[i] = i;
-            System.out.println("array[" + array[i] + "]=" + i);
+        for (int i = 0; i < n ; i++) {
+            array[i] = n - i;
+            System.out.println("array[" + array[i]);
+            for (int j = n; j >= 1; j--) {
+                System.out.print("]=" + j);
+            }
         }
     }
 }
+

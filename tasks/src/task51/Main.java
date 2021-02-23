@@ -7,14 +7,12 @@ public class Main {
         Scanner task = new Scanner(System.in);
         System.out.println("Введите N: ");
         int n = task.nextInt();
-        int a = 1;
-        int b = a;
-        int factorial;
+        int factorial = 1;
+        int a = n % 2;
         while(a < n) {
-            b = b * a;
-            ++a;
-            factorial = b * a;
-            System.out.println(factorial);
+            a += 2;
+            factorial *= a;
         }
+        System.out.println(factorial);
     }
 }
